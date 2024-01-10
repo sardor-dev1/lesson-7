@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* ------------ Header ---------- */
+.header-text {
+    text-align: center;
+    background: #B4604D;
+    color: white;
+    padding: 10px 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    color: #B4604D;    
+    width: 500px;  
+}
+
+.nav__right__div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+}
+
+.nav__right__div div {
+    display: flex;
+    align-items: center;
+}
+
+.nav__right__div button {
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #B4604D;
+    background-color: white;
+    
+}
+
+
+.nav__right__div__btn:hover {
+    background-color: #B4604D;
+    color: white;
+    transition: ease 0.4s;
+    transform: scale(1.2);
+}
+
+.nav__list__wrap__item {
+    padding: 25px 25px;
+
+}
+
+.nav__list__wrap__item a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #B4604D;    
+}
+
+
+.Dae-img {
+    text-align: center;
+}
+/* ---------------- Header End ------------ */
+
+/* ---------------- Advertising section----------- */
+.advertising {
+    margin: 0 auto;
+    width: 1440px;
+    background-color: #A9AE8D;
+}
+
+.advertising__shop {
+    text-align: center;
+}
+
+.advertising-shop-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #B4604D;
+    padding: 70px 0 15px 0;
+}
+
+.advertising__shop__title {
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 64px;
+    color: #B4604D;
+}
+
+.advertising__shop__btn {
+   border-radius: 10px; 
+   padding: 10px 20px;
+   border-color: #B4604D;
+   color: white;
+   background-color: #B4604D;
+   margin: 50px;
+   cursor: pointer;
+}
+
+.advertising__shop__btn:hover {
+    background-color: white;
+    transition: 0.4px;
+    color: #B4604D; 
+}
+/* --------------------- Advertising section end------ */
+
+/* --------------------- Bottle section start -------- */
+.bottle{
+    background: #F6F4EC;
+}
+
+.bottle__tittle{
+    text-align: center;
+    color: #B45F4D;
+    font-size: 23px;
+    font-weight: 400;
+    padding: 40px 0 64px 0;
+}
+
+.bottle__wrapp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 45px;
+}
+
+.bottle__wrapp__card {
+    display: block;
+
+}
+
+.bottle__wrapp__card__tittle {
+    color: #B45F4D;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 35px 0 25px;
+}
+
+.bottle__wrapp__card__text{
+    color: #B45F4D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bottle__wrapp__card__text1{
+    color: #B45F4D;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 48px;
+}
+
+.bottle__wrapp__card__img {
+    padding-top: 35px;
+
+}
+/* ----------------- Bottle section end ----------- */
+
+/* ----------------- Feel images ---------- */
+.feel-img{
+    width: 1200px;
+    padding: 35px 0 45px 0;
+}
+/* ----------------- Feel image end -------- */
+
+/* ------------------ Meet section ------------------*/
+.meet {
+    background: #F1D3B9;
+}
+
+.meet__wrapp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 95px 0 65px 0;
+}
+
+.meet__wrapp__right {
+    display: block;
+    padding-right: 0;
+    background-color: rgb(255, 247, 247);
+    width: 500px;
+    padding-top: 134px;
+    padding-right: 42px;
+    padding-left: 42px;
+    height: 750px;
+}
+
+
+
+.meet__wrapp__right__tittle {
+    color: #B45F4D;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 57.6px;
+    text-align: center;
+}
+
+.meet__wrapp__right__text{
+    color: #B45F4D;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.meet__wrapp__right__text2{
+    color: #B45F4D;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 40px;
+}
+/* ------------------ Meet section end--------- */
+
+/* -------------- images section --------- */
+.images-section__title {
+    text-align: center;
+    padding: 55px 0 45px 0;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+/* -------------- images section -------- */
+
+/* -------------- Footer ---------------- */
+footer{
+    background-color: #F6F4EC;
+}
+
+
+.footer-wrapp {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    padding-top: 40px;
+}
+
+.footer-wrapp__left {
+    display: flex;
+}
+
+.footer-wrapp__left__ul{
+    width: 215px;
+    color: #B45F4D;
+}
+
+.footer-wrapp__left__ul a {
+    color: #B45F4D;
+}
+
+
+.footer-wrapp__right__tittle {
+    color: #C17C6C;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 14px;
+}
+
+
+.footer-wrapp__right__input button{
+    border-color: #B45F4D;
+    background-color: white;
+    color: #B45F4D;
+    margin-right: 0;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.footer-wrapp__right input {
+    height: 40px;
+    color: #B45F4D;
+    border-bottom-color: #B45F4D;
+    margin-bottom: 25px;
+}
+
+.footer-wrapp__right input:active {
+    border: #B45F4D;
+}
+
+
+.footer-wrapp__right__text {
+    color: #C17C6C;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+.footer-wrapp__text {
+    color: #C17C6C;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0;
+}
